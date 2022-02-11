@@ -105,9 +105,3 @@ order by UniqueID) as row_number from PortfolioProject..nashville
 )
 select * from RowNumCTE
 where row_number > 1
-
-
-
-
-
-
